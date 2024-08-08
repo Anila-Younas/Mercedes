@@ -1,0 +1,77 @@
+*{
+    background-color: white;
+}
+.black{
+    margin: 0px ;
+    padding:10px ;
+    background-color: rgb(49, 50, 51);
+}
+.image{
+    background-color: rgb(49, 50, 51);
+}
+.Home, .Products, .About, .Contact
+{
+   border-radius: 5px;
+   background-color: black;
+}
+ .Query
+ {
+   border-radius: 5px;
+   margin-left: 400px;
+    background-color: white; 
+ }
+ .Search
+ {
+   border-radius: 5px;
+    background-color: white; 
+ }
+ .Rectangle
+ {
+    margin: 0px;
+    padding: 100px;
+  background: linear-gradient(to right, #c81a1a, #edfd07);
+  background: radial-gradient(circle, #edfd07, #f9f506);
+  background: linear-gradient(to right, #c81a1a, #f9f506), radial-gradient(circle, #edfd07, #f9f506);
+ }
+ .image1
+ {
+    margin-top: 10px;
+    width: 290px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .image2, .image3, .image4
+ {
+ width: 290px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 13px;
+    border-radius: 20px;
+ }
+ .b1
+ {
+   margin-top: 10px;
+    width: 290px;
+    height: 300px;
+    border-radius: 20px;
+ }
+.b2, .b3, .b4, .b5{
+    margin-top: 10px;
+    width: 290px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 13px;
+    border-radius: 20px;
+}
+.lower
+{
+    width: 1265px;
+    height: 70px;
+    margin-top: 20px;
+    background-color: rgb(13, 14, 15);
+}
+.colors
+{
+   padding-top: 20px;
+    background-color: rgb(13, 14, 15);
+}
