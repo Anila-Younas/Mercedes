@@ -11,10 +11,10 @@
     <div class="black panel">
         <img class="logo" src="./mercedes-benz-logo-0-removebg-preview.png" alt="Mercedes Logo" height="40px">
         <nav>
-            <input class="nav-button" type="button" value="Home" onclick="navigate('home')">
-            <input class="nav-button" type="button" value="Products" onclick="navigate('products')">
-            <input class="nav-button" type="button" value="About Us" onclick="navigate('about')">
-            <input class="nav-button" type="button" value="Contact" onclick="navigate('contact')">
+            <a href="index.html"><input class="nav-button" type="button" value="Home"></a>
+            <a href="products.html"><input class="nav-button" type="button" value="Products"></a>
+            <a href="about.html"><input class="nav-button" type="button" value="About Us"></a>
+            <a href="contact.html"><input class="nav-button" type="button" value="Contact"></a>
             <input class="query" type="text" placeholder="Enter your query">
             <input class="search" type="text" placeholder="Search">
         </nav>
@@ -38,12 +38,5 @@
     <div class="footer">
         <p>Developed by Anila Younas</p>
     </div>
-
-    <script>
-        function navigate(section) {
-            alert("Navigating to " + section);
-            // Add actual navigation logic here
-        }
-    </script>
 </body>
 </html>
