@@ -1,77 +1,68 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: white;
 }
-.black{
-    margin: 0px ;
-    padding:10px ;
+
+.black {
     background-color: rgb(49, 50, 51);
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
-.image{
-    background-color: rgb(49, 50, 51);
+
+.logo {
+    margin-right: 20px;
 }
-.Home, .Products, .About, .Contact
-{
-   border-radius: 5px;
-   background-color: black;
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
- .Query
- {
-   border-radius: 5px;
-   margin-left: 400px;
-    background-color: white; 
- }
- .Search
- {
-   border-radius: 5px;
-    background-color: white; 
- }
- .Rectangle
- {
-    margin: 0px;
-    padding: 100px;
-  background: linear-gradient(to right, #c81a1a, #edfd07);
-  background: radial-gradient(circle, #edfd07, #f9f506);
-  background: linear-gradient(to right, #c81a1a, #f9f506), radial-gradient(circle, #edfd07, #f9f506);
- }
- .image1
- {
-    margin-top: 10px;
-    width: 290px;
-    height: 300px;
-    border-radius: 20px;
- }
- .image2, .image3, .image4
- {
- width: 290px;
-    height: 300px;
-    margin-top: 10px;
-    margin-left: 13px;
-    border-radius: 20px;
- }
- .b1
- {
-   margin-top: 10px;
-    width: 290px;
-    height: 300px;
-    border-radius: 20px;
- }
-.b2, .b3, .b4, .b5{
-    margin-top: 10px;
-    width: 290px;
-    height: 300px;
-    margin-top: 10px;
-    margin-left: 13px;
+
+.nav-button {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.query, .search {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.welcome-message {
+    margin: 20px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
     border-radius: 20px;
 }
-.lower
-{
-    width: 1265px;
-    height: 70px;
-    margin-top: 20px;
+
+.footer {
+    width: 100%;
     background-color: rgb(13, 14, 15);
-}
-.colors
-{
-   padding-top: 20px;
-    background-color: rgb(13, 14, 15);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
 }
