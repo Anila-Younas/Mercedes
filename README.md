@@ -13,8 +13,7 @@ A **simple webpage** showcasing different Mercedes-Benz models using **HTML & CS
 ### 📥 Download the Project
 Clone the repository using Git:
 
-git clone https://github.com/YOUR_USERNAME/Mercedes-Webpage.git
-
+git clone https://github.com/Anila-Younas/Mercedes
 Or download the ZIP and extract it manually.
 
 ### 💻 Open in VS Code
